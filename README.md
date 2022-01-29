@@ -21,7 +21,7 @@ The FalconPy SDK contains a collection of Python classes that abstract CrowdStri
 ## Overview :mag_right:
 There are a large number of CrowdStrike Falcon API service collections (45+) collectively containing hundreds of individual operations, all of which are accessible to your project via FalconPy.
 
-FalconPy also supports interaction with all CrowdStrike regions, custom connection and response timeouts, 
+The CrowdStrike Falcon SDK for Python also supports interaction with all CrowdStrike regions, custom connection and response timeouts, 
 routing requests thru a list of proxies, disabling SSL verification, and custom header configuration.
 
 > If the CrowdStrike APIs were rings of great power, that the Dark Lord Sauron gifted to the kings of dwarves, elves and men, then CrowdStrike's FalconPy would be the One Ring.
@@ -29,7 +29,7 @@ routing requests thru a list of proxies, disabling SSL verification, and custom 
 > _"One SDK to rule them all, One SDK to find them, One SDK to bring them all and in the darkness bind them."_
 
 #### Supported versions of Python
-FalconPy was developed for Python 3, and does not support versions of Python below 3.6. Every commit to the FalconPy code base is unit tested for functionality using all versions of Python the library currently supports.
+The CrowdStrike Falcon SDK for Python was developed for Python 3, and does not support versions of Python below 3.6. Every commit to the FalconPy code base is unit tested for functionality using all versions of Python the library currently supports.
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/crowdstrike-falconpy?logo=python&label=Supported%20versions&logoColor=white)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_ubuntu.yml)
 
@@ -37,7 +37,7 @@ FalconPy was developed for Python 3, and does not support versions of Python bel
 
 
 #### Supported Operating Systems
-FalconPy has been tested on the following operating systems.
+The FalconPy SDK has been tested on the following operating systems.
 
 [![Amazon Linux](https://img.shields.io/badge/-Amazon-darkgreen?logo=amazon&style=for-the-badge&labelColor=teal)](https://aws.amazon.com/amazon-linux-ami/)
 [![CentOS](https://img.shields.io/badge/-CentOS-magenta?logo=centos&style=for-the-badge&labelColor=purple)](https://www.centos.org/)
@@ -56,7 +56,7 @@ FalconPy has been tested on the following operating systems.
 Details regarding supported operating systems and Python versions, and project security and testing procedures can be found [here](https://github.com/CrowdStrike/falconpy/blob/main/SECURITY.md).
 
 ### Components
-The CrowdStrike Falcon SDK for Python provides two distinct methods for interacting with CrowdStrike's API. 
+The FalconPy SDK provides two distinct methods for interacting with CrowdStrike's API. 
 
 | **[Service Classes](#service-classes)** | **[The Uber Class](#the-uber-class)** |
 | :-- | :-- |
