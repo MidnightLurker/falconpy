@@ -10,7 +10,7 @@ These examples are provided as a quick start for your project.
 + [Samples by API service collection](#samples-by-api-service-collection)
 + [Suggestions](#suggestions)
 
-![Adversary Bust Museum](../docs/asset/musee-des-origines.png)
+![Adversary Bust Museum](../docs/asset/origins-mural.png)
 
 # Authentication for these Examples
 In order to expedite sample delivery, examples will following one of three standard patterns for defining and providing credentials for API access. 

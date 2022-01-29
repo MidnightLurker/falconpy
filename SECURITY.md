@@ -34,13 +34,27 @@ FalconPy functionality is unit tested to run under the following versions of Pyt
 
 ## Supported Operating Systems
 
-Unit testing for FalconPy is performed using Windows, MacOS, and Ubuntu Linux.
+Unit testing for FalconPy is performed using Apple macOS, Microsoft Windows and Ubuntu Linux.
 
 | Operating System | Most Recent Result |
 | :--- | :--- |
-| MacOS | [![Unit testing (MacOS)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_macos.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_macos.yml) |
-| Ubuntu Linux | [![Unit testing (Ubuntu)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_ubuntu.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_ubuntu.yml)<BR/>[![Unit testing (US2)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_us2.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_us2.yml)<BR/>[![Unit testing (EU1)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_eu1.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_eu1.yml)<BR/>[![Unit testing (USGOV1)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_usgov1.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_usgov1.yml) |
-| Windows | [![Unit testing (Windows)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_windows.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_windows.yml) |
+| [![macOS](https://img.shields.io/badge/-macOS-silver?logo=apple&style=for-the-badge&labelColor=gray)](https://www.apple.com/macos/) | [![Unit testing (MacOS)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_macos.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_macos.yml) |
+| [![Ubuntu](https://img.shields.io/badge/-Ubuntu-964?logo=ubuntu&style=for-the-badge&labelColor=tan)](https://ubuntu.com/) | [![Unit testing (Ubuntu)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_ubuntu.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_ubuntu.yml)<BR/>[![Unit testing (US2)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_us2.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_us2.yml)<BR/>[![Unit testing (EU1)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_eu1.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_eu1.yml)<BR/>[![Unit testing (USGOV1)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_usgov1.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_usgov1.yml) |
+| [![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows&style=for-the-badge&labelColor=darkblue)](https://www.microsoft.com/en-us/windows/) | [![Unit testing (Windows)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_windows.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/unit_testing_windows.yml) |
+
+FalconPy has been used and should have no issues running on the following additional operating systems.
+
+[![Amazon Linux](https://img.shields.io/badge/-Amazon-darkgreen?logo=amazon&style=for-the-badge&labelColor=teal)](https://aws.amazon.com/amazon-linux-ami/)
+[![CentOS](https://img.shields.io/badge/-CentOS-magenta?logo=centos&style=for-the-badge&labelColor=purple)](https://www.centos.org/)
+[![Fedora](https://img.shields.io/badge/-Fedora-teal?logo=fedora&style=for-the-badge&labelColor=darkblue)](https://getfedora.org/)
+[![RedHat](https://img.shields.io/badge/-RedHat-red?logo=redhat&style=for-the-badge&labelColor=maroon)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+[![Arch](https://img.shields.io/badge/-Arch-darkgray?logo=archlinux&style=for-the-badge&labelColor=gray)](https://archlinux.org/)
+
+[![Debian](https://img.shields.io/badge/-Debian-darkred?logo=debian&style=for-the-badge&labelColor=red)](https://www.debian.org/)
+[![Kali](https://img.shields.io/badge/-Kali-gray?logo=kalilinux&logoColor=red&style=for-the-badge&labelColor=black)](https://www.kali.org/)
+[![Pop! OS](https://img.shields.io/badge/-Pop!%20OS-orange?logo=popos&logoColor=black&style=for-the-badge&labelColor=yellow)](https://pop.system76.com/)
+[![SUSE](https://img.shields.io/badge/-SUSE-yellow?logo=suse&style=for-the-badge&labelColor=orange)](https://www.suse.com/)
+[![openSUSE](https://img.shields.io/badge/-openSUSE-orange?logo=opensuse&style=for-the-badge&labelColor=darkorange)](https://www.opensuse.org/)
 
 ## Supported CrowdStrike regions
 

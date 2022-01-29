@@ -19,8 +19,8 @@ posting your question in the [discussion board](https://github.com/CrowdStrike/f
     + [All other discussions](#discussions-are-used-for-questions-suggestions-and-feedback)
 - [Pull Requests](#pull-requests)
     + [Contributor dependencies](#additional-contributor-package-requirements)
-    + [Unit testing](#unit-testing-and-code-coverage)
-    + [Linting](#linting)
+    + [Unit testing and Code coverage](#unit-testing-and-code-coverage)
+    + [Code Quality and Style (Linting)](#code-quality-and-style-linting)
     + [Breaking changes](#breaking-changes)
     + [Branch targeting](#branch-targeting)
     + [Pull Request Template](#pull-request-template)
@@ -38,13 +38,30 @@ posting your question in the [discussion board](https://github.com/CrowdStrike/f
 - Submit a [Pull Request](#pull-requests)
 
 ### Bug reporting is handled using GitHub issues
-We use GitHub issues to track bugs. Report a bug by opening a [new issue](https://github.com/CrowdStrike/falconpy/issues).
+[![GitHub issues](https://img.shields.io/github/issues-raw/crowdstrike/falconpy?logo=github)](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/crowdstrike/falconpy?color=green&logo=github)](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aissue+is%3Aclosed)
+
+We use [GitHub issues](https://github.com/CrowdStrike/falconpy/issues) to track:
+
++ [bugs](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aissue+label%3A%22bug+%3Abug%3A%22) (`BUG`)
++ [documentation](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aissue+label%3A%22documentation+%3Abook%3A%22) and [linking](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aissue+label%3A%22broken+link+%3Alink%3A%22) issues (`DOC`, `LINK`)
++ [enhancements](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aissue+label%3A%22enhancement+%3Astar2%3A%22) (`ENH`)
++ [security concerns](https://github.com/CrowdStrike/falconpy/issues?q=is%3Aissue+label%3Asecurity) (`SEC`)
+
+[![Report Issue](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/report-issue.png)](https://github.com/CrowdStrike/falconpy/issues/new/choose)
 
 ### Discussions are used for questions, suggestions and feedback.
-We use GitHub's discussion board functionality to handle community discussions related to 
-[questions](https://github.com/CrowdStrike/falconpy/discussions/categories/q-a), 
-[feedback](https://github.com/CrowdStrike/falconpy/discussions/categories/general) 
-or [functionality enhancements](https://github.com/CrowdStrike/falconpy/discussions/categories/ideas).
+[![GitHub Discussions](https://img.shields.io/github/discussions/CrowdStrike/falconpy?logo=github&logoColor=white)](https://github.com/CrowdStrike/falconpy/discussions)
+
+We use GitHub's discussion board functionality to handle community discussions related to:
+
++ [questions](https://github.com/CrowdStrike/falconpy/discussions/categories/q-a)
++ [feedback](https://github.com/CrowdStrike/falconpy/discussions/categories/general)
++ [functionality enhancements](https://github.com/CrowdStrike/falconpy/discussions/categories/ideas)
++ [new releases and usage examples](https://github.com/CrowdStrike/falconpy/discussions/categories/show-and-tell)
+
+[![Discussions](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/ask-a-question.png)](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AQ%26A)
+[![Discussions](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/join-the-discussion.png)](https://github.com/CrowdStrike/falconpy/discussions)
 
 ---
 
@@ -163,12 +180,12 @@ To find out more above _Coverage_, review their [website](https://coverage.readt
 
 To read more about _bandit_, you can visit [their documentation website](https://bandit.readthedocs.io/en/latest/). 
 
-### Linting
+### Code Quality and Style (Linting)
 [![Check Docstrings](https://github.com/CrowdStrike/falconpy/actions/workflows/pydocstyle.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/pydocstyle.yml)
 [![Flake8](https://github.com/CrowdStrike/falconpy/actions/workflows/flake8.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/flake8.yml)
 [![Pylint](https://github.com/CrowdStrike/falconpy/actions/workflows/pylint.yml/badge.svg)](https://github.com/CrowdStrike/falconpy/actions/workflows/pylint.yml)
 
-All submitted code must meet minimum linting requirements. We use the Flake8 linting framework.
+All submitted code must meet minimum linting requirements. We use the Flake8 framework for our lint specification.
 + All code that is included within the installation package must pass linting workflows when the Pull Request checks have completed.
     - We use `flake8`, [LGTM](https://lgtm.com/projects/g/CrowdStrike/falconpy), `pydocstyle` and `pylint` to power our linting workflows. 
     - You will be asked to correct linting errors before your Pull Request will be approved.
