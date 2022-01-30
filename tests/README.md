@@ -7,6 +7,13 @@ The contents of this folder are used to unit test the FalconPy code base.
 Developers who are wanting to contribute to the FalconPy project can review this documentation for
 detail regarding how to unit test successfuly so that pull request submissions are not delayed.
 
++ [Available tests](#available-tests)
++ [Configuring your environemnt](#configuring-your-environment)
++ [Running a single unit test](#running-a-single-unit-test)
++ [Executing the entire unit test series](#executing-the-entire-unit-test-series)
++ [Checking code and docstring style](#checking-code-and-docstring-style)
++ [Questions](#questions)
+
 ## Available tests
 A unit test is available for every Service Class implemented within FalconPy and are named after the Service Class module being tested.
 
@@ -22,7 +29,7 @@ There are also a few additional files and unit tests within this directory that 
 | `testfile.png` | Test file used for upload & download testing within the API. |
 
 
-## Configurating your environment
+## Configuring your environment
 In order to run unit testing successfully, you will need to configure your environment.
 
 ### Development requirements
@@ -133,7 +140,7 @@ src/falconpy/zero_trust_assessment.py                               12      2   
 TOTAL                                                             3650   1573    57%
 ```
 
-## Execute the entire unit test series
+## Executing the entire unit test series
 The entire unit testing series can be run using the `run-tests.sh` utility within the `util` folder.
 
 From the main folder execute the following command:
@@ -236,7 +243,7 @@ Run metrics:
 Files skipped (0):
 ```
 
-## Checking lint and docstring style
+## Checking code and docstring style
 Two helper utilities are provided to assist you with confirming code quality and style.
 
 `lint.sh` will check the lint for the entire package.
@@ -269,6 +276,11 @@ util/docstyle.sh
 ```shell
 0
 ```
+
+## Questions
+Having trouble getting unit testing to perform the way you expect?  [Let us know](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AQ%26A), we're happy to assist.
+
+[![Discussions](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/ask-a-question.png)](https://github.com/CrowdStrike/falconpy/discussions?discussions_q=category%3AQ%26A)
 
 ---
 
