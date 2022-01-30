@@ -19,5 +19,5 @@ All of these utilities are designed to be executed from within the parent folder
 ---
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="350px" src="../docs/asset/adversary-jackal.png"></P>
+<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="350px" src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/adversary-jackal.png"></P>
 <h3><P align="center">WE STOP BREACHES</P></h3>

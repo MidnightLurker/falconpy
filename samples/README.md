@@ -10,7 +10,7 @@ These examples are provided as a quick start for your project.
 + [Samples by API service collection](#samples-by-api-service-collection)
 + [Suggestions](#suggestions)
 
-![Adversary Bust Museum](../docs/asset/origins-mural.png)
+![Adversary Bust Museum](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/origins-mural.png)
 
 # Authentication for these Examples
 In order to expedite sample delivery, examples will following one of three standard patterns for defining and providing credentials for API access. 
@@ -159,5 +159,5 @@ Have an example you've developed yourself that you'd like to share?  **_Excellen
 
 ---
 
-<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="450px" src="../docs/asset/turbine-panda-lines.png"></P>
+<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="450px" src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/turbine-panda-lines.png"></P>
 <h3><P align="center">WE STOP BREACHES</P></h3>

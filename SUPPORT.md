@@ -11,7 +11,7 @@ As such it carries no formal support, expressed or implied.
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 
-![Adversary Lineup](docs/asset/adversary-lineup-2.png)
+![Adversary Lineup](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/adversary-lineup-2.png)
 
 ## Issue Reporting and Questions :bug:
 
@@ -67,5 +67,5 @@ We want your contributions!
 ---
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="300px" src="docs/asset/adversary-bear-1.png"></P>
+<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="300px" src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/adversary-bear-1.png"></P>
 <h3><P align="center">WE STOP BREACHES</P></h3>

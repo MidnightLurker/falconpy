@@ -51,5 +51,5 @@ Please let us know by submitting an issue!
 
 ---
 
-<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="300px" src="asset/adversary-panda-1.png"></P>
+<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="300px" src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/adversary-panda-1.png"></P>
 <h3><P align="center">WE STOP BREACHES</P></h3>

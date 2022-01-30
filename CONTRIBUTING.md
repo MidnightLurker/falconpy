@@ -4,7 +4,7 @@
 
 # Contributing to this repository <!-- omit in toc -->
 
-![Hollywood Adversaries](docs/asset/hollywood-adversaries.jpg)
+![Hollywood Adversaries](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/hollywood-adversaries.jpg)
 
 _Welcome!_ We're excited you want to take part in the FalconPy community! 
 
@@ -252,5 +252,5 @@ If you have suggestions on how this process could be improved, please let us kno
 ---
 
 
-<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="350px" src="docs/asset/turbine-panda.png"></P>
+<p align="center"><img src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo-footer.png"><BR/><img width="350px" src="https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/turbine-panda.png"></P>
 <h3><P align="center">WE STOP BREACHES</P></h3>
